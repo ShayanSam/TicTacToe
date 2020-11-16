@@ -158,7 +158,7 @@ public class TicTacToe {
         while (true) {
             TicTacToe T = new TicTacToe();
             T.ticTacTocGame();
-            System.out.println("press any key to continue or press n to quit");
+            System.out.println("Enter any key to continue or press N to quit");
             String userAnswer = input.nextLine().toUpperCase();
             if(userAnswer.equals("N"))
                 break; }
