@@ -11,19 +11,12 @@ public class Print {
     private String selectPlayer;
     private int userInputA;
     private int userInputB;
-    private String X = "X";
-    private String O = "O";
-    private String numberOfCR1 = "-";
-    private String numberOfCR2 = "-";
-    private String numberOfCR3 = "-";
-    private String numberOfCR4 = "-";
-    private String numberOfCR5 = "-";
-    private String numberOfCR6 = "-";
-    private String numberOfCR7 = "-";
-    private String numberOfCR8 = "-";
-    private String numberOfCR9 = "-";
+    private final String X = "X";
+    private final String O = "O";
+    private String numberOfCR1 = "-";private String numberOfCR2 = "-";private String numberOfCR3 = "-";
+    private String numberOfCR4 = "-";private String numberOfCR5 = "-";private String numberOfCR6 = "-";
+    private String numberOfCR7 = "-";private String numberOfCR8 = "-";private String numberOfCR9 = "-";
     List<Integer> indexNumbers = new ArrayList<>();
-    private boolean flag = false;
 
     public void printMain() {
         System.out.println();

@@ -134,17 +134,15 @@ public class TicTacToe {
     public boolean findWinner() {
         checkForWinnerO();
         checkForWinnerX();
-        if (xWinner | oWinner == true)
-            return true;
-        return false;
+        return xWinner | oWinner;
     }
 
     public boolean getNameOfwinner() {
-        if (findWinner() && xWinner == true) {
+        if (findWinner() && xWinner) {
             System.out.println(getNameOfPlayerX()+" "+"won!");
             return true;
         }
-        if (findWinner() && oWinner == true) {
+        if (findWinner() && oWinner) {
             System.out.println(getNameOfPlayerO()+" "+"won!");
             return true;
         }
@@ -160,15 +158,10 @@ public class TicTacToe {
         while (true) {
             TicTacToe T = new TicTacToe();
             T.ticTacTocGame();
-            System.out.println("Try again? y/n");
+            System.out.println("press any key to continue or press n to quit");
             String userAnswer = input.nextLine().toUpperCase();
             if(userAnswer.equals("N"))
-                break;
-            else
-                continue;
-
-
-        }
+                break; }
         }
 
     }
