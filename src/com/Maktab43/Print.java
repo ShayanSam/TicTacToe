@@ -21,9 +21,9 @@ public class Print {
     public void printMain() {
         System.out.println();
         System.out.println("*************************************************************************************");
-        System.out.println(numberOfCR1 + " " + numberOfCR2 + " " + numberOfCR3 + "          " + "-1-" + " " + "-2-" + " " + "-3-");
-        System.out.println(numberOfCR4 + " " + numberOfCR5 + " " + numberOfCR6 + "          " + "-4-" + " " + "-5-" + " " + "-6-");
-        System.out.println(numberOfCR7 + " " + numberOfCR8 + " " + numberOfCR9 + "          " + "-7-" + " " + "-8-" + " " + "-9-");
+        System.out.println(numberOfCR1 + "+" + numberOfCR2 + "+" + numberOfCR3 + "          " + "-1-" + " " + "-2-" + " " + "-3-");
+        System.out.println(numberOfCR4 + "+" + numberOfCR5 + "+" + numberOfCR6 + "          " + "-4-" + " " + "-5-" + " " + "-6-");
+        System.out.println(numberOfCR7 + "+" + numberOfCR8 + "+" + numberOfCR9 + "          " + "-7-" + " " + "-8-" + " " + "-9-");
         System.out.println("*************************************************************************************");
         System.out.println();
     }
